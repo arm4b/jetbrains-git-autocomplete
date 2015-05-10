@@ -1,5 +1,5 @@
 # Jetbrains IDE git autocomplete
-Provides git autocompletion support for command line console in Jetbrains IDEs: PyCharm, PhpStorm
+Provides git autocompletion support for command line console in Jetbrains IDEs like [PyCharm](https://www.jetbrains.com/pycharm/), [PhpStorm](https://www.jetbrains.com/phpstorm/), [RubyMine](https://www.jetbrains.com/ruby/)
 
 
 ##### 1.) Install plugin: `Command Line Tool Support`
