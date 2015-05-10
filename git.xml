@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<framework xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="schemas/frameworkDescriptionVersion1.1.3.xsd" name="git"
+           invoke="C:\Program Files (x86)\Git\bin\git.exe" alias="git" enabled="true" version="1">
+    <command>
+        <name>add</name>
+    </command>
+    <command>
+        <name>status</name>
+    </command>
+    <command>
+        <params></params>
+        <name>log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short</name>
+    </command>
+    <command>
+        <name>branch</name>
+    </command>
+    <command>
+        <name>commit -m</name>
+        <params>"fixed"</params>
+    </command>
+    <command>
+        <name>push origin</name>
+        <params>branch_name[=null]</params>
+    </command>
+</framework>
